@@ -2,7 +2,7 @@
 
 function BlogPostCard({ blogPost }) {
     return (
-        <div>
+        <div id='blogs'>
             <p>{blogPost.title}</p>
         </div>
     )

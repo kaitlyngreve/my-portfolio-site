@@ -2,7 +2,7 @@
 
 function ProjectCard({ project }) {
     return (
-        <div>
+        <div ide='projects'>
             <p>{project.name}</p>
         </div>
     )

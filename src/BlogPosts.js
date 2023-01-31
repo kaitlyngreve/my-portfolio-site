@@ -49,5 +49,17 @@ const blogPosts = [
         blurb: 'Learning a new programming language comes with learning new ways of debugging...',
         blog_link: 'https://medium.com/towardsdev/rubys-binding-pry-15e670be0131',
         img: ''
+    },
+    {
+        title: 'Drag & Drop - With React DnD',
+        blurb: 'Drag and drop is a super fun feature to implement into your next app or project. While there are several ways to implement drag and drop, this article is focusing on how to implement with React Dnd...',
+        blog_link: 'https://medium.com/towardsdev/a-christmas-drag-drop-with-react-dnd-39d34e358c4',
+        img: ''
+    },
+    {
+        title: 'Using localStorage in React',
+        blurb: 'For this project, I used localStorage with React Hooks. One of two web storage API mechanisms, localStorage allows data to be stored as key-value pairs for later use...',
+        blog_link: 'https://medium.com/towardsdev/using-localstorage-in-react-99115822e940',
+        img: ''
     }
 ]

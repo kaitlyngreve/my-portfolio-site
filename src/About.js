@@ -2,7 +2,7 @@
 
 function About() {
     return (
-        <div>
+        <div id='about'>
             <h1>About me</h1>
             <p>Hello! My name is Kaitlyn and I am a full stack software engineer based in the Bay Area, California.</p>
             <p>I graduated from and intensive full stack software engineering bootcamp, but before
