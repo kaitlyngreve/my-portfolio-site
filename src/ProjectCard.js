@@ -12,12 +12,14 @@ function ProjectCard({ project }) {
     return (
         <div>
             <div id='projects'></div>
-            <div className='collapsible-div' {...getToggleProps({ onClick: handleCollapse })}>
-                {isExpanded ? project.name : project.name}
-            </div>
-            <div className='collapsible-div' {...getCollapseProps()}>
-                <p>{project.description}</p>
-                <p>{project.tech_stack}</p>
+            <div className='collapsible-div'>
+                <div className="project-title" {...getToggleProps({ onClick: handleCollapse })}>
+                    {isExpanded ? project.name : project.name}
+                </div>
+                <div {...getCollapseProps()}>
+                    <p>{project.description}</p>
+                    <p>{project.tech_stack}</p>
+                </div>
             </div>
         </div>
 

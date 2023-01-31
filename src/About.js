@@ -2,7 +2,8 @@
 
 function About() {
     return (
-        <div id="about">
+        <div>
+            <div id="about"></div>
             <div className="about_me">
                 <h1>About me</h1>
                 <p>Hello! My name is Kaitlyn and I am a full stack software engineer based in the Bay Area, California.</p>

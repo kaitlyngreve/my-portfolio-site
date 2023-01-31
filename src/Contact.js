@@ -2,7 +2,8 @@
 
 function Contact() {
     return (
-        <div id='contact'>
+        <div>
+            <div id='contact'></div>
             <a href='https://www.linkedin.com/in/kaitlyn-greve/' target='_blank'>
                 LinkedIn
             </a>
