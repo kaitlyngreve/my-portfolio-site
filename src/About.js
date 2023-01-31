@@ -19,14 +19,16 @@ function About() {
                     on a team that is equally excited for these things. I am eager to use my skills to build
                     and contribute toward software that empowers people and organizations.
                 </p>
-                <p>Here are a few technologies I have been working with:</p>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Firebase</li>
-                    <li>Ruby</li>
-                    <li>Ruby on Rails</li>
-                </ul>
+                <div className="about_technologies_container">
+                    <p>Here are a few technologies I have been working with:</p>
+                    <div className='about_technologies'>
+                        <p className="technology">JavaScript</p>
+                        <p className="technology">React</p>
+                        <p className="technology">Firebase</p>
+                        <p className="technology">Ruby</p>
+                        <p className="technology">Ruby on Rails</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

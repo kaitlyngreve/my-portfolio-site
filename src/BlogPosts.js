@@ -4,9 +4,12 @@ import BlogPostCard from './BlogPostCard'
 function BlogPosts() {
     return (
         <div>
-            {blogPosts.map((blogPost) => {
-                return <BlogPostCard blogPost={blogPost} />
-            })}
+            <div>
+                {blogPosts.map((blogPost) => {
+                    return <BlogPostCard blogPost={blogPost} />
+                })}
+            </div>
+            <a href='https://medium.com/@kgreve14' target='_blank'>See all my blog posts</a>
         </div>
     )
 }

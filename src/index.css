@@ -7,20 +7,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 * {
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_me {
+  max-width: 100%;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.about_technologies {
+  display: flex;
+}
+
+.technology {
+  padding-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+  padding: 15px;
+}
+
 .collapsible-div {
-  border: 1px solid #000;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  border: 1px solid #111;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .project-title:hover {

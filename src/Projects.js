@@ -24,7 +24,7 @@ const projects = [
     },
     {
         name: 'Recipy',
-        img: '',
+        img: 'public/images/recipy.jpg',
         description: 'A digital recipe box for storing and creating recipes. Born from a love of being in the kitchen, Recipy (rec-i-pe) encourages trying new recipes of either your own creation or others.',
         tech_stack: 'React, Ruby on Rails, CSS',
         github_url: 'https://github.com/kaitlyngreve/digital-recipebox',
