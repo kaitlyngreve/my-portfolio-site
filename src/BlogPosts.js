@@ -34,8 +34,20 @@ const blogPosts = [
     },
     {
         title: 'Knowing Linked Lists for JavaScript Developers',
-        blurd: 'Considered a “core” data structure, linked lists may seem a little cumbersome to a JavaScript developer...',
+        blurb: 'Considered a “core” data structure, linked lists may seem a little cumbersome to a JavaScript developer...',
         blog_link: 'https://medium.com/towardsdev/knowing-linked-lists-for-javascript-developers-87adfdb87838',
+        img: ''
+    },
+    {
+        title: 'Error Handling in Rails',
+        blurb: 'As developers, we are taught how to interpret errors in our code. Sometimes debugging takes longer than we\d like...',
+        blog_link: 'https://medium.com/towardsdev/error-handling-in-rails-17cf6ef7c870',
+        img: ''
+    },
+    {
+        title: 'Ruby\s Binding.pry',
+        blurb: 'Learning a new programming language comes with learning new ways of debugging...',
+        blog_link: 'https://medium.com/towardsdev/rubys-binding-pry-15e670be0131',
         img: ''
     }
 ]
