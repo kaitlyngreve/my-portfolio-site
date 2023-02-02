@@ -18,7 +18,7 @@ function Header() {
             // nextSubheaderIndex = 0;
         }
         if (!subheaders[nextSubheaderIndex]) {
-            return
+            nextSubheaderIndex = 0;
         }
         setSubheaderIndex(nextSubheaderIndex);
     };
