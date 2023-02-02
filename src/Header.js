@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 const subheaders = [
     'I am a Software Engineer.',
     'I build things for the web.',
-    'I am a problem solver.'
+    'I am an avid learner.'
 ]
 
 function Header() {

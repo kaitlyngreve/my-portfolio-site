@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1a2637;
+  color: #a8b2d1;
 }
 
 * {
@@ -16,8 +17,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #111;
+  color: #a8b2d1;
   padding: 15px;
+}
+
+svg {
+  color: #ff0048;
+  font-size: 18px;
 }
 
 .whole-app-container {
@@ -25,6 +31,29 @@ a {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.nav-bar {
+  padding: 10px;
+  font-family: 'PT Mono', monospace;
+  font-size: 14px;
+}
+
+.nav-item:before {
+  content: '>';
+  padding: 6px;
+  color: #ff0048;
+}
+
+.nav-item:hover {
+  color: #ff0048;
 }
 
 .header-content {
@@ -61,4 +90,8 @@ a {
   padding: 10px;
   font-family: 'PT Mono', monospace;
   font-weight: 600;
+}
+
+.CTA-button:hover {
+  background-color: rgb(255, 0, 72, 0.1);
 }
