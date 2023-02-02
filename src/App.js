@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header';
+import About from './About';
 import Projects from './Projects';
 import BlogPosts from './BlogPosts';
 import Nav from './Nav';
@@ -9,10 +10,13 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Header />
-      <Projects />
-      <BlogPosts />
-      <Contact />
+      <div className='whole-app-container'>
+        <Header />
+        <About />
+        <Projects />
+        <BlogPosts />
+        <Contact />
+      </div>
     </div>
   );
 }
