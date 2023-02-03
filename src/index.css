@@ -18,7 +18,6 @@ body {
 a {
   text-decoration: none;
   color: #a8b2d1;
-  padding: 15px;
 }
 
 svg {
@@ -97,15 +96,20 @@ svg {
 }
 
 .section-container {
-  display: flex;
-  flex-direction: column;
   text-align: left;
   margin-bottom: 400px;
 }
 
-.header {
+.header-1 {
   color: #ccd6f6;
+  font-size: 24px;
+  text-align: left;
+}
+
+.header-2 {
+  color: #a8b2d1;
   font-size: 20px;
+  font-weight: 800;
 }
 
 .about-content {
@@ -113,24 +117,24 @@ svg {
   margin-left: 20px;
 }
 
-.about-technologies-container {
+.about-tech-container {
   margin-left: 20px;
   max-width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.about-technologies-header {
+.about-tech-header {
   font-size: 18px;
 }
 
-.technology {
+.tech {
   margin-top: 0;
   font-size: 14px;
   font-family: 'PT Mono', monospace;
 }
 
-.technology:before {
+.tech:before {
   content: '>';
   font-family: 'PT Mono', monospace;
   color: #ff0048;
@@ -140,4 +144,38 @@ svg {
 .projects-container {
   display: flex;
   flex-direction: column;
+}
+
+.project-description {
+  background-color: #1f2e45;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.project-tech {
+  font-family: 'PT Mono', monospace;
+  font-size: 14px;
+}
+
+.project-link {
+  margin-right: 10px;
+}
+
+.blog-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+
+.blog-grid-item {
+  padding-bottom: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #1f2e45;
+  border-radius: 10px;
+  padding: 15px;
 }
