@@ -17,7 +17,7 @@ export default Projects;
 const projects = [
     {
         name: 'Notable',
-        img: '',
+        img: 'my-portfolio-page/src/images/notable.png',
         description: 'A web app built for taking and keeping notes. Notable\s neat design makes navigating and organization simple. Create and save your note entries, and revisit them, with the ability to add to or delete your notes.',
         tech_stack: 'React, CSS, Firebase',
         github_url: 'https://github.com/kaitlyngreve/journal-app',
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         name: 'Recipy',
-        img: 'public/images/recipy.jpg',
+        img: 'my-portfolio-page/src/images/recipy.jpg',
         description: 'A digital recipe box for storing and creating recipes. Born from a love of being in the kitchen, Recipy (rec-i-pe) encourages trying new recipes of either your own creation or others.',
         tech_stack: 'React, Ruby on Rails, CSS',
         github_url: 'https://github.com/kaitlyngreve/digital-recipebox',
