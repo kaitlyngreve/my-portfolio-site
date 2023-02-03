@@ -96,13 +96,14 @@ svg {
   background-color: rgb(255, 0, 72, 0.1);
 }
 
-.about-container {
+.section-container {
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-bottom: 400px;
 }
 
-.about-header {
+.header {
   color: #ccd6f6;
   font-size: 20px;
 }

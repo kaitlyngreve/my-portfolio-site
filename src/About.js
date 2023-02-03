@@ -2,10 +2,10 @@
 
 function About() {
     return (
-        <div className="about-container">
+        <div className="section-container">
             <div id="about"></div>
             <div className="about-me">
-                <h1 className="about-header">About me</h1>
+                <h1 className="header">About me</h1>
                 <p className="about-content">Hello! My name is Kaitlyn and I am a full stack software engineer based in the Bay Area, California.</p>
                 <p className="about-content">I graduated from and intensive full stack software engineering bootcamp, but before
                     that I worked as a hairstylist in the cosmetology industry. I've loved that I can

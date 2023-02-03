@@ -3,7 +3,8 @@ import Projectcard from './ProjectCard';
 
 function Projects() {
     return (
-        <div>
+        <div className='section-container'>
+            <h4 className='header'>Things I've Built</h4>
             {projects.map((project) => {
                 return <Projectcard project={project} />
             })}
