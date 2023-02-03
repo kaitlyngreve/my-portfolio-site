@@ -64,5 +64,11 @@ const blogPosts = [
         blurb: 'For this project, I used localStorage with React Hooks. One of two web storage API mechanisms, localStorage allows data to be stored as key-value pairs for later use...',
         blog_link: 'https://medium.com/towardsdev/using-localstorage-in-react-99115822e940',
         img: ''
+    },
+    {
+        title: 'Breakdown of the Faker::Gem',
+        blurb: 'The Faker gem is to be loved and utilized, not feared and swapped for hard coded seed data. So here is a basic breakdown of how to use the Faker gem. The Faker gem is a gem for Ruby that creates real looking data - populating the database with more than a few records...',
+        blog_link: 'https://medium.com/towardsdev/basic-breakdown-of-the-faker-gem-855ceb15040c',
+        img: ''
     }
 ]
