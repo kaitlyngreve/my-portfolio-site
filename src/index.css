@@ -117,13 +117,13 @@ svg:hover {
 
 .section-container {
   text-align: left;
-  margin-bottom: 400px;
+  margin-bottom: 250px;
 }
 
 .header-1 {
+  text-align: left;
   color: #ccd6f6;
   font-size: 24px;
-  text-align: left;
 }
 
 .header-1:after {
@@ -179,7 +179,6 @@ svg:hover {
 
 .tech {
   padding-right: 10px;
-  text-align: left;
   font-size: 14px;
   font-family: 'PT Mono', monospace;
 }
@@ -189,25 +188,28 @@ svg:hover {
   color: #ff0048;
 }
 
-.projects-container {
+.featured-project {
   display: flex;
   flex-direction: column;
+  max-width: 400px;
 }
 
-.project-description {
-  background-color: #1f2e45;
+.featured-project:nth-child(odd) {
+  /* left */
+  margin-right: auto;
+}
+
+.featured-project:nth-child(even) {
+  /* right */
+  margin-left: auto;
+  text-align: right;
+}
+
+.featured-description {
+  background-color: rgba(78, 114, 168, 0.1);
   max-width: 400px;
   padding: 15px;
   border-radius: 2px;
-}
-
-.project-tech {
-  font-family: 'PT Mono', monospace;
-  font-size: 14px;
-}
-
-.project-link {
-  margin-right: 10px;
 }
 
 .blog-grid-wrapper {
