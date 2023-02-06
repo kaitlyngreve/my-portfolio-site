@@ -28,6 +28,7 @@ svg {
 
 .whole-app-container {
   max-width: 1000px;
+  padding: 0 35px;
   margin: 0 auto;
 }
 
@@ -57,6 +58,28 @@ svg {
 
 .nav-item:hover {
   color: #ff0048;
+}
+
+.socials-container {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.socials-container:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  margin: 0px auto;
+  background-color: #ff0048;
+}
+
+.side-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .header-content {
@@ -198,12 +221,4 @@ svg {
   width: 200px;
   text-align: center;
   margin: 0 auto;
-}
-
-.socials-container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 0;
-  width: 100%;
 }
