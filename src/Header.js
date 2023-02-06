@@ -2,8 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 
 const subheaders = [
     'I am a Software Engineer.',
-    'I build things for the web.',
-    'I am an avid learner.'
+    'I build things for the web.'
 ]
 
 function Header() {

@@ -25,10 +25,9 @@ svg {
   font-size: 18px;
 }
 
+
 .whole-app-container {
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -36,7 +35,7 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px;
+  margin-top: 15px;
 }
 
 .nav-bar {
@@ -45,8 +44,13 @@ svg {
   font-size: 14px;
 }
 
+.nav-item {
+  padding-right: 20px;
+}
+
 .nav-item:before {
   content: '>';
+  font-family: 'PT Mono', monospace;
   padding: 6px;
   color: #ff0048;
 }
@@ -56,9 +60,7 @@ svg {
 }
 
 .header-content {
-  padding: 0px;
   min-height: 100vh;
-  height: 100vh;
   margin-top: 200px;
   text-align: left;
 }
@@ -196,4 +198,12 @@ svg {
   width: 200px;
   text-align: center;
   margin: 0 auto;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0;
+  width: 100%;
 }

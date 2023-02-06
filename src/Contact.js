@@ -13,7 +13,7 @@ function Contact() {
                     Send me an Email!
                 </a>
             </div>
-            <div>
+            <div className="socials-container">
                 <a href='https://www.linkedin.com/in/kaitlyn-greve/' target='_blank'>
                     <svg stroke="currentColor" fill="currentColor" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
@@ -28,9 +28,6 @@ function Contact() {
                     <svg stroke="currentColor" fill="currentColor" viewBox="0 0 1043.63 592.71" height="1em" width="1em">
                         <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
                     </svg>
-                </a>
-                <a href='https://docs.google.com/document/d/e/2PACX-1vTWikqoZskec9EZH0E2aKbe61HLE4nH-zL9MhxgCMWFiNuzYtwpgc13K3bjBupDdRpqU0Q7LVjNlJCV/pub' target='_blank'>
-                    Resume
                 </a>
             </div>
         </>
