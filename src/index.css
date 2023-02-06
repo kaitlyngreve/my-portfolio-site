@@ -29,6 +29,10 @@ svg:hover {
   color: #ff0048;
 }
 
+.location-link {
+  color: #ff0048;
+}
+
 .whole-app-container {
   max-width: 1000px;
   padding: 0 35px;
@@ -116,16 +120,19 @@ svg:hover {
   margin-bottom: 400px;
 }
 
-.header {
-  color: #ccd6f6;
-  font-size: 34px;
-  text-align: center;
-}
-
 .header-1 {
   color: #ccd6f6;
   font-size: 24px;
   text-align: left;
+}
+
+.header-1:after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  margin: 5px 15px;
+  background-color: #ff0048;
 }
 
 .header-2 {
@@ -134,33 +141,52 @@ svg:hover {
   font-weight: 800;
 }
 
+.header-3 {
+  color: #ccd6f6;
+  font-size: 34px;
+  text-align: center;
+}
+
+.header-4 {
+  color: #a8b2d1;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
 .about-content {
   font-size: 18px;
-  margin-left: 20px;
 }
 
-.about-tech-container {
-  margin-left: 20px;
-  max-width: 100%;
+.tech-whole-container {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+  border: .8px solid #ff0048;
+  border-radius: 2px;
+  max-width: 100%;
+  padding: 15px;
 }
 
-.about-tech-header {
+.tech-container {
+  display: flex;
+}
+
+.tech-header {
+  text-align: left;
   font-size: 18px;
 }
 
 .tech {
-  margin-top: 0;
+  padding-right: 10px;
+  text-align: left;
   font-size: 14px;
   font-family: 'PT Mono', monospace;
 }
 
-.tech:before {
-  content: '>';
-  font-family: 'PT Mono', monospace;
+.tech-comma:after {
+  content: ",";
   color: #ff0048;
-  padding: 5px;
 }
 
 .projects-container {

@@ -23,13 +23,12 @@ function Header() {
     };
 
     useEffect(() => {
-        intervalId.current = setInterval(changeSubheader, 3000);
+        intervalId.current = setInterval(changeSubheader, 2500);
         return () => clearInterval(intervalId.current);
     }, [changeSubheader]);
 
     return (
         <div className='hero-content'>
-            <div id='main'></div>
             <p className="hero-hello">Hello! My name is</p>
             <h1 className="hero-name">Kaitlyn Greve.</h1>
             <h4 className="hero-intro">{subheaders[subheaderIndex]}</h4>
