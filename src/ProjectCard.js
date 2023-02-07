@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
     return (
         <div>
             <div id='projects'></div>
-            <div className='project-container'>
+            <div className='project-grid-item'>
                 <p className="header-2">{project.name}</p>
                 <p className="project-description">{project.description}</p>
                 <p className="project-tech" >{project.tech_stack}</p>

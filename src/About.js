@@ -5,7 +5,7 @@ function About() {
         <div className="section-container">
             <div id="about"></div>
             <h1 className="header-1">About me</h1>
-            <p className="about-content">Hello! My name is Kaitlyn and I am a full stack software engineer based in the <a className="location-link" href="https://www.visitcalifornia.com/region/san-francisco-bay-area/" target='_blank'>Bay Area, California</a>.</p>
+            <p className="about-content">Hello! My name is Kaitlyn and I am a full stack software engineer based in the <a className="link" href="https://www.visitcalifornia.com/region/san-francisco-bay-area/" target='_blank'>Bay Area, California</a>.</p>
             <p className="about-content">I graduated from an intensive full stack software engineering bootcamp, but before
                 that I worked as a hairstylist in the cosmetology industry. I've loved that I can
                 apply my passion for creating and delivering meaningful results to people from cosmetology

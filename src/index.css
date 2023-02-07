@@ -29,7 +29,7 @@ svg:hover {
   color: #ff0048;
 }
 
-.location-link {
+.link {
   color: #ff0048;
 }
 
@@ -154,6 +154,13 @@ svg:hover {
   font-weight: 600;
 }
 
+.header-5 {
+  color: #ccd6f6;
+  font-size: 18px;
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+}
+
 .about-content {
   font-size: 18px;
 }
@@ -212,6 +219,35 @@ svg:hover {
   border-radius: 2px;
 }
 
+.projects {
+  margin-top: 100px;
+}
+
+.project-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+
+.project-grid-item {
+  padding-bottom: 15px;
+  aspect-ratio: 1;
+  border-radius: 2px;
+  background-color: #1f2e45;
+  padding: 15px;
+}
+
+.blog-info-container {
+  margin-bottom: 35px;
+}
+
+.blog-info {
+  text-align: left;
+  margin-right: 350px;
+  font-size: 18px;
+}
+
 .blog-grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -222,11 +258,18 @@ svg:hover {
 }
 
 .blog-grid-item {
-  padding-bottom: 15px;
   border-radius: 2px;
   overflow: hidden;
   background-color: #1f2e45;
   padding: 15px;
+}
+
+.blog-grid-item:hover {
+  background-color: rgba(78, 114, 168, 0.1);
+}
+
+.blog-link:hover {
+  color: #a8b2d1;
 }
 
 .contact-container {
