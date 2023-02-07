@@ -12,14 +12,14 @@ function BlogPosts() {
                 </p>
                 <p className='blog-info'>
                     My tech blog is hosted through
-                    <a className="link" href='https://medium.com/@kgreve14' target='_blank'> Medium</a>
+                    <a className="link" href='https://medium.com/@kgreve14' target='_blank' rel="noreferrer"> Medium</a>
                     , which I add to regularly. I am also a writer for the Medium publication,
-                    <a className="link" href='https://towardsdev.com/' target='_blank'> TowardsDev</a>.
+                    <a className="link" href='https://towardsdev.com/' target='_blank' rel="noreferrer"> TowardsDev</a>.
                 </p>
             </div>
             <div className="blog-grid-wrapper">
                 {blogPosts.map((blogPost) => {
-                    return <BlogPostCard blogPost={blogPost} />
+                    return <BlogPostCard blogPost={blogPost} key={blogPost.title} />
                 })}
             </div>
         </div>
@@ -55,12 +55,12 @@ const blogPosts = [
     },
     {
         title: 'Error Handling in Rails',
-        blurb: 'As developers, we are taught how to interpret errors in our code. Sometimes debugging takes longer than we\d like...',
+        blurb: 'As developers, we are taught how to interpret errors in our code. Sometimes debugging takes longer than we\'d like...',
         blog_link: 'https://medium.com/towardsdev/error-handling-in-rails-17cf6ef7c870',
         img: ''
     },
     {
-        title: 'Ruby\s Binding.pry',
+        title: 'Ruby\'s Binding.pry',
         blurb: 'Learning a new programming language comes with learning new ways of debugging...',
         blog_link: 'https://medium.com/towardsdev/rubys-binding-pry-15e670be0131',
         img: ''
