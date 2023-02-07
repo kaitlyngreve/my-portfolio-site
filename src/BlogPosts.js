@@ -3,7 +3,7 @@ import BlogPostCard from './BlogPostCard'
 
 function BlogPosts() {
     return (
-        <div>
+        <div id="blogs">
             <h4 className='header-1'>Things I've Written</h4>
             <div className='blog-info-container'>
                 <p className='blog-info'>
@@ -31,7 +31,7 @@ export default BlogPosts;
 const blogPosts = [
     {
         title: 'CSS Grid - Step by Step',
-        blurb: 'Whether you are new to CSS grid or simply need a refresher with some easy to follow steps — you have clicked on the right post! My hope for you is that by the end of reading this post you have confidence in implementing a CSS grid in your project...',
+        blurb: 'Whether you are new to CSS grid or simply need a refresher with some easy to follow steps — you have clicked on the right post! My hope for you is that by the end of reading this post you...',
         blog_link: 'https://medium.com/towardsdev/css-grid-step-by-step-aad05ec91f4b',
         img: ''
     },
@@ -67,7 +67,7 @@ const blogPosts = [
     },
     {
         title: 'Drag & Drop - With React DnD',
-        blurb: 'Drag and drop is a super fun feature to implement into your next app or project. While there are several ways to implement drag and drop, this article is focusing on how to implement with React Dnd...',
+        blurb: 'Drag and drop is a super fun feature to implement into your next app or project. While there are several ways to implement drag and drop...',
         blog_link: 'https://medium.com/towardsdev/a-christmas-drag-drop-with-react-dnd-39d34e358c4',
         img: ''
     },
@@ -79,7 +79,7 @@ const blogPosts = [
     },
     {
         title: 'Breakdown of the Faker::Gem',
-        blurb: 'The Faker gem is to be loved and utilized, not feared and swapped for hard coded seed data. So here is a basic breakdown of how to use the Faker gem. The Faker gem is a gem for Ruby that creates real looking data - populating the database with more than a few records...',
+        blurb: 'The Faker gem is to be loved and utilized, not feared and swapped for hard coded seed data. So here is a basic breakdown of how to use the Faker gem...',
         blog_link: 'https://medium.com/towardsdev/basic-breakdown-of-the-faker-gem-855ceb15040c',
         img: ''
     }
