@@ -31,37 +31,37 @@ export default BlogPosts;
 const blogPosts = [
     {
         title: 'CSS Grid - Step by Step',
-        blurb: 'Learn how to use CSS Grid in a practical, approachable way. Perfect for those new to CSS entirely or if you just haven\'t tries out grid yet!',
+        blurb: 'Learn how to use CSS Grid in a practical, approachable way. Perfect for those new to CSS entirely or if you just haven’t tried out grid yet!',
         blog_link: 'https://medium.com/towardsdev/css-grid-step-by-step-aad05ec91f4b',
         img: ''
     },
     {
-        title: 'Knowing Linked Lists for JavaScript Developers',
-        blurb: 'Considered a “core” data structure, linked lists may seem a little cumbersome to a JavaScript developer...',
-        blog_link: 'https://medium.com/towardsdev/knowing-linked-lists-for-javascript-developers-87adfdb87838',
-        img: ''
-    },
-    {
         title: 'Error Handling in Rails',
-        blurb: 'As developers, we are taught how to interpret errors in our code. Sometimes debugging takes longer than we\'d like...',
+        blurb: 'An step by step guide to catching errors on the backend, and rendering them to the frontend.',
         blog_link: 'https://medium.com/towardsdev/error-handling-in-rails-17cf6ef7c870',
         img: ''
     },
     {
+        title: 'CSS Flexbox',
+        blurb: 'Looking to increase your CSS skillset? Learn from scratch or deepen your understanding of CSS Flexbox in an easy to follow way.',
+        blog_link: 'https://medium.com/@kgreve14/css-flexbox-28d11dc42891',
+        img: ''
+    },
+    {
         title: 'Ruby\'s Binding.pry',
-        blurb: 'Learning a new programming language comes with learning new ways of debugging...',
+        blurb: 'In this simple to follow guide, learn the importance and ease of interacting with your code in a pry environment.',
         blog_link: 'https://medium.com/towardsdev/rubys-binding-pry-15e670be0131',
         img: ''
     },
     {
         title: 'Using localStorage in React',
-        blurb: 'For this project, I used localStorage with React Hooks. One of two web storage API mechanisms, localStorage allows data to be stored as key-value pairs for later use...',
+        blurb: 'Learn how to implement and utilize the API mechanism - localStorage - with React hooks to persist frontend data.',
         blog_link: 'https://medium.com/towardsdev/using-localstorage-in-react-99115822e940',
         img: ''
     },
     {
         title: 'And More!',
-        blurb: 'Check ouy my blog dood',
+        blurb: 'Want to read more? I post regularly to Medium, so defo check it out!',
         blog_link: 'https://medium.com/@kgreve14',
         img: ''
     }
