@@ -143,8 +143,9 @@ svg:hover {
 
 .header-3 {
   color: #ccd6f6;
-  font-size: 34px;
+  font-size: 36px;
   text-align: center;
+  font-weight: 600;
 }
 
 .header-4 {
@@ -273,10 +274,21 @@ svg:hover {
 }
 
 .contact-container {
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
-  margin: 60px;
+  margin: 200px 0;
+}
+
+.underline {
+  width: 550px;
+  height: 1px;
+  background-color: #ff0048;
+  margin: 0 auto;
+}
+
+.contact-content {
+  font-size: 18px;
+  margin: 45px 45px;
 }
 
 .email-button {
