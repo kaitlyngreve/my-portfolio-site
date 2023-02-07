@@ -296,6 +296,10 @@ svg:hover {
   filter: grayscale(1) contrast(.8) brightness(.4) sepia(100%) hue-rotate(177deg);
 }
 
+.featured-project-image:hover img:hover {
+  filter: none;
+}
+
 .projects {
   margin-top: 100px;
 }
@@ -346,6 +350,6 @@ svg:hover {
   margin: 45px 45px;
 }
 
-.email-button {
+.contact-button {
   margin: 0 auto;
 }

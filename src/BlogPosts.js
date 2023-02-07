@@ -31,20 +31,8 @@ export default BlogPosts;
 const blogPosts = [
     {
         title: 'CSS Grid - Step by Step',
-        blurb: 'Whether you are new to CSS grid or simply need a refresher with some easy to follow steps — you have clicked on the right post! My hope for you is that by the end of reading this post you...',
+        blurb: 'Learn how to use CSS Grid in a practical, approachable way. Perfect for those new to CSS entirely or if you just haven\'t tries out grid yet!',
         blog_link: 'https://medium.com/towardsdev/css-grid-step-by-step-aad05ec91f4b',
-        img: ''
-    },
-    {
-        title: 'useHistory => useNavigate',
-        blurb: 'With ReactRouter updating from version 5 to version 6, there have been a few changes. One of which is the replacement of the useHistory() hook to useNavigate()...',
-        blog_link: 'https://medium.com/@kgreve14/usehistory-usenavigate-5b383160adba',
-        img: ''
-    },
-    {
-        title: 'CSS Flexbox',
-        blurb: 'CSS can be intimidating. Not because it is overly complicated or causes errors, (actually … part of why CSS can be tricky is because it does not cause errors 😅), but because it can do so many things!...',
-        blog_link: 'https://medium.com/@kgreve14/css-flexbox-28d11dc42891',
         img: ''
     },
     {
@@ -66,21 +54,15 @@ const blogPosts = [
         img: ''
     },
     {
-        title: 'Drag & Drop - With React DnD',
-        blurb: 'Drag and drop is a super fun feature to implement into your next app or project. While there are several ways to implement drag and drop...',
-        blog_link: 'https://medium.com/towardsdev/a-christmas-drag-drop-with-react-dnd-39d34e358c4',
-        img: ''
-    },
-    {
         title: 'Using localStorage in React',
         blurb: 'For this project, I used localStorage with React Hooks. One of two web storage API mechanisms, localStorage allows data to be stored as key-value pairs for later use...',
         blog_link: 'https://medium.com/towardsdev/using-localstorage-in-react-99115822e940',
         img: ''
     },
     {
-        title: 'Breakdown of the Faker::Gem',
-        blurb: 'The Faker gem is to be loved and utilized, not feared and swapped for hard coded seed data. So here is a basic breakdown of how to use the Faker gem...',
-        blog_link: 'https://medium.com/towardsdev/basic-breakdown-of-the-faker-gem-855ceb15040c',
+        title: 'And More!',
+        blurb: 'Check ouy my blog dood',
+        blog_link: 'https://medium.com/@kgreve14',
         img: ''
     }
 ]
