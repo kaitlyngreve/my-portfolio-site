@@ -20,7 +20,7 @@ function FeaturedProjects() {
                         </a>
                     </div>
                     <div className="featured-project-image">
-                        <img src="/my-portfolio-site/images/notable.png" alt='Notable screenshot' />
+                        <img src="images/notable.png" alt='Notable screenshot' />
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ function FeaturedProjects() {
                         </a>
                     </div>
                     <div className="featured-project-image">
-                        <img src="/my-portfolio-site/images/recipy.jpg" alt='Recipy screenshot' />
+                        <img src="images/recipy.jpg" alt='Recipy screenshot' />
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ function FeaturedProjects() {
                         </a>
                     </div>
                     <div className="featured-project-image">
-                        <img src="/my-portfolio-site/images/taskier.png" alt='Taskier screenshot' />
+                        <img src="images/taskier.png" alt='Taskier screenshot' />
                     </div>
                 </div>
             </div>
