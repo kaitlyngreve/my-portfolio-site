@@ -321,8 +321,8 @@ svg:hover {
 
 .blog-grid-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   justify-content: center;
@@ -348,6 +348,12 @@ svg:hover {
 .contact-content {
   font-size: 18px;
   margin: 45px 45px;
+}
+
+.contact-button-container {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .contact-button {
