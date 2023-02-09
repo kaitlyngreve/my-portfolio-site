@@ -8,7 +8,7 @@ function Contact() {
             <p className="contact-content">Are you hiring? <br />I am currently searching for a role as a software engineer and would love to hear from you. Send me an email!
             </p>
             <div className="contact-button-container">
-                <a className="CTA-button contact-button" href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZczqwnTflPGSbRGLHdVJQzRlXxqcBwJxgrRHTsGDgxsWMkxMMNWkNCVVrLSdsjTcJVvSV' target='_blank' rel="noreferrer">
+                <a className="CTA-button contact-button" href='mailto:kgreve14@gmail.com' target='_blank' rel="noreferrer">
                     Send me an Email!
                 </a>
                 <a className="CTA-button contact-button" href='/kaitlyngreve_resume.pdf' target='_blank' rel="noreferrer">
