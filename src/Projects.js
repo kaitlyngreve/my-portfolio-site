@@ -25,21 +25,21 @@ const projects = [
     {
         name: 'Memory Matching Game',
         description: 'A memory card matching game with two separate card sets. The game includes a timer that counts up until each match has be found. Players are able to save their score to beat later.',
-        tech_stack: 'JavaScript, React, CSS',
+        tech_stack: ['JavaScript', 'React', 'CSS'],
         github_url: 'https://github.com/murphy-mi/phase-2-project',
         deployed_url: ''
     },
     {
         name: 'Car Maintenence Log',
         description: 'A log to keep tabs on the maintenence done on the users car. Built for the car enthusiast, this web app allows a user to add their car to the garage, create, update, and delete their performed maintenence.',
-        tech_stack: 'JavaScript, React, Sinatra, CSS',
+        tech_stack: ['JavaScript', 'React', 'Sinatra', 'CSS'],
         github_url: 'https://github.com/HartPM/Phase-3-Project-Front-End',
         deployed_url: ''
     },
     {
         name: 'Stranger Things Game',
         description: 'A team building game where players pick four members of the Stranger Things cast and go into the Upside Down to find out whether their custom picked team can defeat the monster encounter.',
-        tech_stack: 'JavaScript, React, Ruby on Rails, CSS',
+        tech_stack: ['JavaScript', 'React', 'Rails', 'CSS'],
         github_url: 'https://github.com/kaitlyngreve/Phase-4-Stranger-Project',
         deployed_url: ''
     }
