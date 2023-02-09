@@ -4,8 +4,8 @@ import FeaturedProjects from './FeaturedProjects';
 
 function Projects() {
     return (
-        <div className='section-container' id='projects'>
-            <h4 className='header-1'>Things I've Built</h4>
+        <div className='section-container container-wide' id='projects'>
+            <h4 className='header-1 container'>Things I've Built</h4>
             <FeaturedProjects />
             <div className='projects'>
                 <h4 className='header-5'>More Projects:</h4>

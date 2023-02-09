@@ -2,33 +2,32 @@
 
 function About() {
     return (
-        <div className="section-container" id='about'>
-            <h1 className="header-1">About me</h1>
-            <p className="about-content">Hello! My name is Kaitlyn and I am a full stack software engineer based in the <a className="link" href="https://www.visitcalifornia.com/region/san-francisco-bay-area/" target='_blank' rel="noreferrer">Bay Area, California</a>.</p>
-            <p className="about-content">I graduated from an intensive full stack software engineering bootcamp, but before
-                that I worked as a hairstylist in the cosmetology industry. I've loved that I can
-                apply my passion for creating and delivering meaningful results to people from cosmetology
-                to coding. Part of what drew me to tech was wanting to make a bigger impact - whether it be through
-                improving workflows and collaboration, bettering how tools and platforms work together,
-                or data security. I admire how software is so widely used and provides ample opportunity
-                to reach and impact groups of people.
-            </p>
-            <p className="about-content">As a software engineer I can apply my excitment for continued learning, teamwork, and innovation
-                on a team that is equally excited for these things. I am eager to use my skills to build
-                and contribute toward software that empowers people and organizations.
-            </p>
-            <div className="tech-whole-container">
-                <p className="header-4">What I've been working with:</p>
+        <div className="section-container container" id='about'>
+            <div className="about-content">
+                <h1 className="header-1">About me</h1>
+                <p>I am a full stack software engineer based in the beautiful <a className="link" href="https://www.visitcalifornia.com/region/san-francisco-bay-area/" target='_blank' rel="noreferrer">Bay Area</a> of California.</p>
+                <p>
+                    In the last year, I graduated from an intensive full stack software engineering bootcamp where I learned to build effective, real world applications using React and Ruby.
+                </p>
+                <p>
+                    Before launching myself into the software industry, I worked as a hairstylist. While the two careers are profoundly different, I have found a shared purpose  of creating and delivering results to people. Software just allows me to do so in a more engaging way, and at a much larger scale. I am eager to use my skills to build and contribute toward software that empowers organizations and individuals alike.
+                </p>
+                <p className="inline-text-callout">
+                    Are you hiring? I'd love to work with you! <a href="#contact">Contact Me.</a>
+                </p>
+            </div>
+            <div className="tech-whole-container red-border-accent">
+                <p className="header-4">Tech I Work With:</p>
                 <div className="tech-container">
                     <p className="tech tech-comma">JavaScript</p>
                     <p className="tech tech-comma">React</p>
                     <p className="tech tech-comma">Firebase</p>
                     <p className="tech tech-comma">Ruby</p>
-                    <p className="tech tech-comma">Ruby on Rails</p>
+                    <p className="tech tech-comma">Rails</p>
                     <p className="tech">HTML / CSS</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

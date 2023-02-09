@@ -3,19 +3,21 @@ import BlogPostCard from './BlogPostCard'
 
 function BlogPosts() {
     return (
-        <div id="blogs">
-            <h4 className='header-1'>Things I've Written</h4>
-            <div className='blog-info-container'>
-                <p className='blog-info'>
-                    Writing blog posts about new learning ventures have proved profoundly helpful in cementing all I've learned.
-                    There is something about using my own words to deep dive into tech topics that improve my understanding!
-                </p>
-                <p className='blog-info'>
-                    My tech blog is hosted through
-                    <a className="link" href='https://medium.com/@kgreve14' target='_blank' rel="noreferrer"> Medium</a>
-                    , which I add to regularly. I am also a writer for the Medium publication,
-                    <a className="link" href='https://towardsdev.com/' target='_blank' rel="noreferrer"> TowardsDev</a>.
-                </p>
+        <div className="section-container container-wide" id="blogs">
+            <div className="container">
+                <h4 className='header-1'>Things I've Written</h4>
+                <div className='blog-info-container'>
+                    <p className='blog-info'>
+                        Writing blog posts about new learning ventures have proved profoundly helpful in cementing all I've learned.
+                        There is something about using my own words to deep dive into tech topics that improve my understanding!
+                    </p>
+                    <p className='blog-info'>
+                        My tech blog is hosted through
+                        <a className="link" href='https://medium.com/@kgreve14' target='_blank' rel="noreferrer"> Medium</a>
+                        , which I add to regularly. I am also a writer for the Medium publication,
+                        <a className="link" href='https://towardsdev.com/' target='_blank' rel="noreferrer"> TowardsDev</a>.
+                    </p>
+                </div>
             </div>
             <div className="blog-grid-wrapper">
                 {blogPosts.map((blogPost) => {

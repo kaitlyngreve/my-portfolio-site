@@ -28,7 +28,7 @@ function Header() {
     }, [changeSubheader]);
 
     return (
-        <div className='hero-content'>
+        <div className='hero-content container'>
             <p className="hero-hello">Hello! My name is</p>
             <h1 className="hero-name">Kaitlyn Greve.</h1>
             <h4 className="hero-intro">{subheaders[subheaderIndex]}</h4>

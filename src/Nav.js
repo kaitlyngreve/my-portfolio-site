@@ -7,7 +7,7 @@ function Nav() {
             <a className="nav-item" href='#projects'>Work</a>
             <a className="nav-item" href='#blogs'>Blog</a>
             <a className="nav-item" href='#contact'>Contact</a>
-            <a className="CTA-button" href='/kaitlyngreve_resume.pdf' target='_blank' rel="noreferrer">
+            <a className="nav-item CTA-button" href='/kaitlyngreve_resume.pdf' target='_blank' rel="noreferrer">
                 Resume
             </a>
         </div>
