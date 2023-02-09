@@ -62,8 +62,8 @@ const blogPosts = [
         img: ''
     },
     {
-        title: 'And More!',
-        blurb: 'Want to read more? I post regularly to Medium, so defo check it out!',
+        title: 'And More',
+        blurb: 'View all of my blog posts on Medium.',
         blog_link: 'https://medium.com/@kgreve14',
         img: ''
     }
