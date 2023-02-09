@@ -2,10 +2,11 @@ import { useState, useRef, useEffect } from 'react';
 
 const subheaders = [
     'I am a Software Engineer.',
-    'I build things for the web.'
+    'I build things for the web.',
+    'Let\'s work together.'
 ]
 
-function Header() {
+function Hero() {
     const [subheaderIndex, setSubheaderIndex] = useState(0);
     const intervalId = useRef();
 
@@ -37,4 +38,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Hero;
