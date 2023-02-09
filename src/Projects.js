@@ -38,7 +38,7 @@ const projects = [
     },
     {
         name: 'Stranger Things Game',
-        description: 'A team building game where players pick four members of the Stranger Things cast and go into the Upside Down to find out whether their team can defeat the monster encounter.',
+        description: 'A team building game where players pick four members of the Stranger Things cast and go into the Upside Down to find out whether their custom picked team can defeat the monster encounter.',
         tech_stack: 'JavaScript, React, Ruby on Rails, CSS',
         github_url: 'https://github.com/kaitlyngreve/Phase-4-Stranger-Project',
         deployed_url: ''
