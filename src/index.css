@@ -374,8 +374,9 @@ svg:hover {
   flex: 1;
 }
 
-
-
+.project-tile-link:hover {
+  color: #a8b2d1;
+}
 
 .featured-project-image-container {
   max-width: 100%;
