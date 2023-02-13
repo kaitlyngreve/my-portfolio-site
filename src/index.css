@@ -91,17 +91,20 @@ svg:hover {
 }
 
 .socials-container:after {
-  content: "";
+  content: "Let's Connect";
+  transform: rotate(-90deg);
   display: block;
-  width: 1px;
-  height: 100px;
+  width: 125px;
+  padding-bottom: 12px;
+  height: 115px;
   margin: 0px auto;
-  background-color: #a8b2d1;
+  font-family: 'PT Mono', monospace;
 }
 
 .side-item {
   padding-top: 8px;
   padding-bottom: 8px;
+  width: 20px;
 }
 
 .hero-content {
@@ -319,7 +322,7 @@ svg:hover {
 }
 
 .tech {
-  padding-right: 10px;
+  padding-right: 8px;
   font-size: 18px;
   font-family: 'PT Mono', monospace;
 }
@@ -510,7 +513,7 @@ svg:hover {
   display: flex;
   flex-direction: column;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   max-width: 700px;
 }
 
@@ -534,4 +537,9 @@ svg:hover {
   display: flex;
   grid-gap: 50px;
   margin-top: 25px;
+}
+
+.footer-cta-container {
+  text-align: center;
+  margin-bottom: 75px;
 }

@@ -5,6 +5,7 @@ import About from './About';
 import Projects from './Projects';
 import BlogPosts from './BlogPosts';
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <BlogPosts />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }
