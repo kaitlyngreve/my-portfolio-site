@@ -84,7 +84,7 @@ svg:hover {
 .socials-container {
   position: fixed;
   bottom: 10px;
-  left: 10px;
+  left: clamp(1px, 2vw, 10px);
   display: flex;
   flex-direction: column;
   color: #a8b2d1;
@@ -135,9 +135,11 @@ svg:hover {
 
 .hero-name,
 .hero-intro {
-  font-size: 70px;
+  font-size: clamp(32px, 10vw, 70px);
   font-family: 'Inter', sans-serif;
 }
+
+
 
 .CTA-button {
   border: 1px solid #ff0048;
@@ -154,9 +156,9 @@ svg:hover {
 
 .section-container {
   text-align: left;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 150px;
+  padding-top: clamp(25px, 5vh, 50px);
+  padding-bottom: clamp(25px, 5vh, 50px);
+  margin-bottom: clamp(50px, 12vh, 150px);
 }
 
 .container-wide {
@@ -174,7 +176,7 @@ svg:hover {
 .header-1 {
   text-align: left;
   color: #ccd6f6;
-  font-size: 52px;
+  font-size: clamp(32px, 8vw, 52px);
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .05em;
@@ -313,6 +315,7 @@ svg:hover {
 
 .tech-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -347,6 +350,14 @@ svg:hover {
   flex-direction: row;
   grid-gap: 75px;
   background-color: #1f2e45;
+}
+
+@media(max-width: 768px) {
+  .featured-project {
+    grid-row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .featured-project-content {
@@ -474,6 +485,13 @@ svg:hover {
   justify-content: center;
 }
 
+@media(max-width: 768px) {
+  .project-grid-wrapper {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+}
+
 .blog-info-container {
   margin-bottom: 75px;
 }
@@ -489,6 +507,13 @@ svg:hover {
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   justify-content: center;
+}
+
+@media(max-width: 768px) {
+  .blog-grid-wrapper {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
 }
 
 .blog-grid-wrapper>.grid-item:last-of-type {
