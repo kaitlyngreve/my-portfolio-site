@@ -84,10 +84,19 @@ svg:hover {
 .socials-container {
   position: fixed;
   bottom: 10px;
-  left: clamp(1px, 2vw, 10px);
+  left: clamp(.5px, 1vw, 10px);
   display: flex;
   flex-direction: column;
   color: #a8b2d1;
+}
+
+
+@media(max-width: 768px) {
+
+  svg,
+  .socials-container:after {
+    font-size: 14px;
+  }
 }
 
 .socials-container:after {
