@@ -356,7 +356,7 @@ svg:hover {
   .featured-project {
     grid-row-gap: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
@@ -398,6 +398,13 @@ svg:hover {
   display: flex;
   position: relative;
   transition: all .3s ease;
+}
+
+@media(max-width: 768px) {
+  .featured-project-image-container {
+    aspect-ratio: 1.5;
+    width: 100%;
+  }
 }
 
 .featured-project-image {
