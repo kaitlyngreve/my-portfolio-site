@@ -52,6 +52,13 @@ svg:hover {
   color: #ff0048;
 }
 
+.link-header {
+  color: #ff0048;
+  text-decoration: underline #ff0048;
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .whole-app-container {
   padding: 0 75px;
   margin: 0 auto;
@@ -61,6 +68,13 @@ svg:hover {
   .whole-app-container {
     padding: 0 35px;
   }
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .nav-container {
@@ -103,9 +117,9 @@ svg:hover {
   content: "Let's Connect";
   transform: rotate(-90deg);
   display: block;
-  width: 125px;
+  width: 135px;
   padding-bottom: 12px;
-  height: 115px;
+  height: 125px;
   margin: 0px auto;
   font-family: 'PT Mono', monospace;
 }
@@ -337,6 +351,7 @@ svg:hover {
   padding-right: 8px;
   font-size: 18px;
   font-family: 'PT Mono', monospace;
+  margin: 0;
 }
 
 .tech:after {
@@ -377,7 +392,7 @@ svg:hover {
   margin: 0;
 }
 
-.featured-project-content .header-2 {
+.featured-project-content .link-header {
   font-size: 32px;
   line-height: 1.3em;
   font-weight: bold;
@@ -587,4 +602,38 @@ svg:hover {
 
 .footer-cta {
   font-family: 'PT Mono', monospace;
+}
+
+.about-header-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 50px;
+}
+
+.about-header-container .header-1 {
+  margin-bottom: 0;
+}
+
+.about-image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .about-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 }
